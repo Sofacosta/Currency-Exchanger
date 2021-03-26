@@ -38,11 +38,13 @@ This is a current exchange application. A user should be able to type in an amou
 * Visit the ExhangeRate-API site. Input your email address and click the 
 "Get Free Key" button. 
 * You'll be prompted to create an account with your email, first name and a password. Agree to the terms of use and click "Get Started!". You'll be able to access a dashboard that includes your API key as well as your remaining API calls for the month. 
-* Place your token in the .env file at the top level of your directory.       
+* Place your token in the .env file at the top level of your directory.
+* Start server with command $npm run start        
 ## Known Bugs
 * No known bugs
 ## Notes
-* Any reference that I used in building this project 
+* A user should be able to enter an amount in US dollars and then specify another currency. and been able to type at least 5 currencies. 
+
 ## License
 * [MIT](https://choosealicense.com/licenses/mit)
 * Copyright 2021 Sofia Acosta

@@ -1,0 +1,26 @@
+<html lang="en-US">
+<head>
+  <title>Currency Exchange</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Get the latest currency exchange</h1>
+    <label for="currency">Enter amount in USD Dollars:</label>
+    <input id="currency" type="text">
+    <label for="currency-select">Choose your currency</label>
+    <select name="currencies" id="currency-select">
+      <option value="">--Please choose an option--</option>
+      <option value="MXN">Mexican Peso</option>
+      <option value="EUR">Euro</option>
+      <option value="JPY">Japanese Yen</option>
+      <option value="NGN">Nigerian Naira</option>
+      <option value="CZK">Czech Republic's Koruna</option>
+      
+
+    </select>
+    <button class="btn-success" id="currencyExchange">Currency exchange</button>
+    <div class="showErrors"></div>
+    <div class="showCurrency"></div>
+  </div>
+</body>
+</html>
