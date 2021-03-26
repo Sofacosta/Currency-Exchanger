@@ -1,10 +1,10 @@
-# TITLE OF PROJECT 
-## Name of project ( For example: Independent project #3 for Epicodus)
-### Project initiated: 00-00-0000
-### Project modified: 00-00-0000
+# CURRENCY EXCHANGER 
+## Independent project #5 for Epicodus
+### Project initiated: 03-26-2021
+### Project modified: 03-26-2021
 ### By Sofia Acosta
 ## Project Description
-This is a detailed description of the project. A summary of valuable information for the users and developers. 
+This is a current exchange application. A user should be able to type in an amount (in U.S. dollars) and then choose which currency it should be converted to (such as francs, marks, rupees, and so on). To determine the most recent exchange rate, this application will make an API call to the following Exchange Rate [API](https://www.exchangerate-api.com/)  
 ## Preview 
 * Link to GitHub Pages. 
 
@@ -34,9 +34,11 @@ This is a detailed description of the project. A summary of valuable information
 * Clone the project with $ git clone LINK TO GITHUB
 * Recreate this project's environment with $ npm install
 * Create a file to store variables you want to keep secret $ touch .env  
-* Create production environment with terminal command $ npm run build     
- 
-
+* Create production environment with terminal command $ npm run build
+* Visit the ExhangeRate-API site. Input your email address and click the 
+"Get Free Key" button. 
+* You'll be prompted to create an account with your email, first name and a password. Agree to the terms of use and click "Get Started!". You'll be able to access a dashboard that includes your API key as well as your remaining API calls for the month. 
+* Place your token in the .env file at the top level of your directory.       
 ## Known Bugs
 * No known bugs
 ## Notes
