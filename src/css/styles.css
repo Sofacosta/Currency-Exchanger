@@ -1,0 +1,49 @@
+body {
+  background: rgb(34,35,43);
+  background: linear-gradient(90deg, rgba(34,35,43,1) 25%, rgba(48,80,91,0) 47%, rgba(67,137,150,1) 75%);
+}
+
+.container {
+  margin: center;
+  margin-top: 600px;
+  margin-bottom: 200px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-style: initial ;
+  font-family: Arial, Helvetica, sans-serif ; 
+  display: block;
+  font-weight: bold;
+}
+
+.showCurrency {
+  margin-top: 50px;
+  text-align: center;
+}
+
+Button {
+	box-shadow: 0px 0px 0px 2px #0b298a;
+	background-color:rgb(60, 60, 255);
+	border-radius:10px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:hsl(233, 93%, 44%);
+	font-family:Arial;
+	font-size:19px;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #000000;
+  margin-left: 30px;
+}
+.Button:hover {
+	background-color:blue;
+}
+.Button:active {
+	position:relative;
+	top:1px;
+}
+
+  
