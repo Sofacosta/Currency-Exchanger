@@ -4,6 +4,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
 import CurrencyService from './CurrencyService.js'
 
+function clearFields() {
+  $('.showErrors').text("");
+}
+
 $(function() {
   $('#currencyExchange').on('click', function() {  
     const amountInUSD = $('#currency').val();
