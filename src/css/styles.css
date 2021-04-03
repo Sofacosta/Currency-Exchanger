@@ -18,7 +18,8 @@ h1 {
   font-weight: bold;
 }
 
-.showCurrency {
+.showCurrency,
+.showErrors {
   margin-top: 50px;
   text-align: center;
 }
